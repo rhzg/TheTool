@@ -14,6 +14,8 @@ package de.fraunhofer.iosb;
  * @author Reinhard Herzog
  */
 public class TheTool {
+    static String version = "v0.1.0";
+
 
     /**
      * this program just prints it release name and does nothing else
@@ -23,7 +25,7 @@ public class TheTool {
     public static void main(final String[] args) {
         // TODO Auto-generated method stub
         final int i = 1;
-        System.out.println("This is release " + '?' + " of TheTool");
+        System.out.println("This is release " + version + " of TheTool");
     }
 
 }
