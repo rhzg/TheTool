@@ -14,7 +14,7 @@ package de.fraunhofer.iosb;
  * @author Reinhard Herzog
  */
 public class TheTool {
-    static String version = "v0.1.0";
+    static String version = "v1.1.0";
 
 
     /**
