@@ -16,8 +16,8 @@ package de.fraunhofer.iosb;
 public class TheTool {
 
     /**
-     * this program just prints it release name
-     * 
+     * this program just prints it release name and does nothing else
+     *
      * @param args
      */
     public static void main(final String[] args) {
