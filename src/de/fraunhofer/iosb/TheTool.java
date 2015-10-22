@@ -24,7 +24,8 @@ public class TheTool {
      */
     public static void main(final String[] args) {
         // TODO Auto-generated method stub
-        final int i = 1;
+        int i = 1;
+        i = i + 1;
         System.out.println("This is release " + version + " of TheTool");
     }
 
