@@ -27,6 +27,7 @@ public class TheTool {
         int i = 1;
         i = i + 1;
         System.out.println("This is release " + version + " of TheTool");
+	System.out.println("feature one done");
     }
 
 }
