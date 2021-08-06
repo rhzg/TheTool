@@ -18,10 +18,7 @@ jobs:
       - run: |
         echo "add system env variable"
         echo "::set-env name=MY_VAR::$MY_VAR"
-        echo $ {{ env.MY_VAR }}
-        echo $env.MY_VAR
       -run: |
         echo "access variable in other run step"
-        echo $ {{ env.MY_VAR }}
-        echo $env.MY_VAR
+        echo $MY_VAR
         
