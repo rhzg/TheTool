@@ -19,7 +19,7 @@ jobs:
       - name: Test Variable passing
         run: |
           echo "add system env variable"
-          echo "::set-env name=MY_VAR::$MY_VAR"
+          echo "MY_VAR=hzg" >> $GITHUB_ENV
       - name: next step
         run: |
           echo "access variable in other run step"
