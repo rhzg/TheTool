@@ -17,7 +17,7 @@ jobs:
       - run: echo "🍏 This job's status is ${{ job.status }}."
       - run: |
         echo "add system env variable"
-        echo "::set-env MY_VAR=$MY_VAR"
+        echo "::set-env name=MY_VAR::$MY_VAR"
         echo $ {{ env.MY_VAR }}
         echo $env.MY_VAR
       -run: |
