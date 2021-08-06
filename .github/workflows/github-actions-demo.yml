@@ -15,10 +15,13 @@ jobs:
         run: |
           ls ${{ github.workspace }}
       - run: echo "🍏 This job's status is ${{ job.status }}."
-      - run: |
-        echo "add system env variable"
-        echo "::set-env name=MY_VAR::$MY_VAR"
-      -run: |
-        echo "access variable in other run step"
-        echo $MY_VAR
+
+      - name: Test Variable passing
+        run: |
+          echo "add system env variable"
+          echo "::set-env name=MY_VAR::$MY_VAR"
+      - name: next step
+        run: |
+          echo "access variable in other run step"
+          echo $MY_VAR
         
