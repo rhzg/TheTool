@@ -16,8 +16,7 @@ jobs:
           ls ${{ github.workspace }}
       - run: echo "🍏 This job's status is ${{ job.status }}."
       - run: |
-        echo "add system env variable MY_VAR = hzg"
-        export MY_VAR=hzg
+        echo "add system env variable"
         echo "::set-env MY_VAR=$MY_VAR"
         echo $ {{ env.MY_VAR }}
         echo $env.MY_VAR
